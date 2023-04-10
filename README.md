@@ -7,7 +7,15 @@ npm install
 npm run start
 ```
 
+## Env Variables Stub
+
+```.env
+BLOCK_HEIGHT=123456 # The block height to calculate the largest ancestry set for
+BLOCKSTREAM_API_URL=https://blockstream.info/api # The Blockstream API URL
+```
+
 ### Code Explanation
+
 This script in index.js retrieves transaction data from a Bitcoin block, constructs a tree of ancestry relationships between the transactions, and then displays the largest ancestry set for the block.
 
 The script starts by importing required packages including dotenv for loading environment variables, axios for making HTTP requests, and print-tree for displaying the ancestry tree.
