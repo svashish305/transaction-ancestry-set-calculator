@@ -1,6 +1,6 @@
 import * as dotenv from "dotenv";
 import axios from "axios";
-import printTree from "print-tree";
+// import printTree from "print-tree";
 
 dotenv.config();
 
