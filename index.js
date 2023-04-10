@@ -130,11 +130,11 @@ const displayLargestAncestrySet = (transactionId, limit = 10) => {
 const displayLargestAncestrySets = () => {
   const largestAncestorTxId = getLargestAncestorTransactionId(transactionMap);
   displayLargestAncestrySet(largestAncestorTxId);
-  printTree(
-    rootNode,
-    (rootNode) => rootNode.id,
-    (rootNode) => rootNode.parents
-  );
+  // printTree(
+  //   rootNode,
+  //   (rootNode) => rootNode.id,
+  //   (rootNode) => rootNode.parents
+  // );
 };
 
 (async () => {
