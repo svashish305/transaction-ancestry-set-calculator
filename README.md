@@ -9,7 +9,7 @@ npm run start
 
 ## Env Variables Stub
 
-```.env
+```.env.stub
 BLOCK_HEIGHT=123456 # The block height to calculate the largest ancestry set for
 BLOCKSTREAM_API_URL=https://blockstream.info/api # The Blockstream API URL
 ```
