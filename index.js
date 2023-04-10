@@ -17,7 +17,7 @@ const getBlockHashFromBlockHeight = async (blockHeight) => {
   try {
     const config = {
       method: "get",
-      url: `${BLOCKSTREAM_API_URL}/block-height/${BLOCK_HEIGHT}`,
+      url: `${BLOCKSTREAM_API_URL}/block-height/${blockHeight}`,
       headers: {
         "Content-Type": "application/json",
       },
